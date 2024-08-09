@@ -1,0 +1,139 @@
+.containerBox {
+  background-color: #1B2944;
+  margin: auto;
+  width: 28%;
+  // display: flex;
+  justify-content: center;
+  color: #fff;
+  padding: 10px 17px;
+  margin-top: 1rem;
+  border-radius: 7px;
+  position: relative;
+
+  .counter {
+    width: 100%;
+    background-color: #187056;
+    border-radius: 12px;
+    text-align: center;
+    padding: 12px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .question {
+
+    .questionHead {
+
+      h2 {
+        margin: 17px 0;
+        font-size: 28px;
+        font-weight: 300;
+
+      }
+    }
+
+    .questionBody {
+      p {
+        font-size: 24px;
+        line-height: 29px;
+        font-weight: 400;
+      }
+
+      margin: 40px 0;
+    }
+
+    .questionMCQ {
+      ul {
+        li {
+          width: 100%;
+          font-size: 20px;
+          list-style: none;
+          padding: 14px;
+          border: 1px solid #c1b7b7;
+          border-radius: 12px;
+          margin-top: 2rem;
+          cursor: pointer;
+
+        }
+      }
+    }
+
+    .nextQuestion {
+      display: flex;
+      justify-content: center;
+      margin-top: 2rem;
+
+      button {
+        padding: 15px 19px;
+        background-color: #E91E63;
+
+        color: #fff;
+        border-radius: 8px;
+        text-align: center;
+        margin: auto;
+        border: none;
+        outline: none;
+        width: 100%;
+        font-size: 21px;
+        font-weight: 300;
+        cursor: pointer;
+        transition: all .5s;
+
+        &:hover {
+          background-color: #8f3353;
+        }
+
+      }
+
+      margin-top: 30px;
+      margin-bottom: 10px;
+
+
+    }
+
+  }
+
+  .result {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px 0;
+
+    hr {
+      margin: 20px 0;
+    }
+
+    .question {}
+
+
+  }
+
+  .correctAnswer {
+    background-color: #09935ce0;
+    border: 1px solid #09935ce0 !important;
+  }
+
+  .wrongAnswer {
+    background-color: #a50707;
+    border: 1px solid #a50707 !important;
+  }
+
+  .correctAnswer2 {
+    color: #09935ce0;
+    margin-top: 10px;
+    font-size: 25px;
+  }
+
+  .wrongAnswer2 {
+    color: #a50707;
+    margin-top: 10px;
+    font-size: 25px;
+  }
+
+  .startAgain {
+    background-color: #3F51B5 !important;
+
+    &:hover {
+      background-color: #105ddaa4 !important;
+    }
+  }
+}
